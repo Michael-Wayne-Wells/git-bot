@@ -1,29 +1,40 @@
 
   # _git_bot_
 
-  #### _short description _
+  #### _Log a bunch of commits and have the computer ghost of Deleuze and Guattari rewrite anti-oedipus._
 
-  #### By _**name**_
+  #### By _**Michael Wells**_
 
   ## Description
-
+  This project was the outcome of a joke between an peer and myself about how some recruiters and hiring managers don't really look at the content of junior programmers projects but instead look at the quantity of their commits.
   _ _
 
-  |Behavior|Input|Output|
-  |---|---|---|
-  |   |   |   |
-  |   |   |   |
-  |   |   |   |
-
+  Once started, it will write a line of text from Anti-Oedipus into a html file and then make a git commit every minute.
   ## Setup/Installation Requirements
 
-  * _Launch <https://url.io/(---------)> in your browser._
-  ### OR ###
-  * clone and open the file locally
-  * _in terminal run:_
-  >$git clone https://url/(------).git
-  * _open index.html in your browser._
+  * requires git, ruby, and bundler
 
+  * clone the repository
+  * _in terminal run:_
+
+
+>$ git clone https://github.com/Michael-Wayne-Wells/git-bot.git
+
+>$ cd git-bot
+
+>$ bundle install
+
+>$ ruby app.rb
+
+
+follow the prompt and let it run. It will go for a very long time as Anti-Oedipus is not a short book.
+press control+c to stop at any time.
+
+Time between git commits can be changed in the app.rb file by changing the sleep command:
+
+ sleep(60)   \#== 60 seconds
+
+sleep(2.minutes) \#== 2 minutes
 
 
   ## Known Bugs
@@ -43,5 +54,4 @@
 
   *Licensed under MIT license*
 
-  Copyright (c) 2019 **_name_**
-  
+  Copyright (c) 2012 **_Michael Wells_**
